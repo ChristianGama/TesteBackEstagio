@@ -360,6 +360,7 @@ public class JFRMManterCliente extends JFRMTemplateManter {
         } catch (Exception ex) {
             Logger.getLogger(JFRMManterCliente.class.getName()).log(Level.SEVERE, null, ex);
         }
+        atualizarTabela();
         
     }    
     
